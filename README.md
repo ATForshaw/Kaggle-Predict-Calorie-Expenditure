@@ -8,7 +8,7 @@ Kaggle playground competition s5e5 (https://www.kaggle.com/competitions/playgrou
 1. **EDA**
 - The dataset provided was large (75,000 entries) and clean - no missing values or erroneous data inputs - allowing me to focus on model development rather then cleaning and preprocessing data
 - Features included numarical variables such as Height, Weight, Heart Rate, Duration, Age and one categorical feature, Gender.
-- The target variable (Calories) was right skewed, with the majority of workouts resulting in a low-moderate number of calories burned (mean of 88 and median of 77) as seen in the data.describe() and the histogram
+- The target variable (Calories) was right skewed, with the majority of workouts resulting in a low-moderate number of calories burned (mean of 88, median of 77 and range of 1 - 314) as seen in the data.describe() and the histogram
 - As expected, Calories was primarily correlated to Duration, Heart Rate and Body Temp, as seen in a correlation heatmap - this is where I would focus most of my feature engineering
 
 2. **Feature Engineering**
