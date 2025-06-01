@@ -38,5 +38,10 @@ Kaggle playground competition s5e5 (https://www.kaggle.com/competitions/playgrou
 | Training RMSLE | 0.06130 |
 | Testing RMSLE | 0.06500 |
 | Public Leaderboard RMSLE | 0.06347|
+| Private Leaderboard RMSLE | 0.06501|
 
 The model showed strong generalisation to new data, validating my choice of hyperparameter values as well as the decision to log-transform the original training target variable.
+
+## Future Potential
+- To further improve the RMSLE I would look at testing with other models (RandomForestClassifier, LinearRegression, VotingRegressors)
+- I would also look at further developing the predictive ability of the data with additional feature engineering, PCA or other preprocessing and decomposition techniques
